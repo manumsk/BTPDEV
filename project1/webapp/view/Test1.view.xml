@@ -1,0 +1,11 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ns.project1.controller.Test1" displayBlock="true">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <List noDataText="Drop list items here" id="list0" items="{/ZDEMO_CDS_SalesOrderItem}">
+                <items>
+                    <StandardListItem type="Navigation" title="List Item 1{SalesOrderID}" description="Description text{SalesOrderID}{Product}" icon="sap-icon://picture" id="item3"/>
+                </items>
+            </List>
+        </content>
+    </Page>
+</mvc:View>
