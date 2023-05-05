@@ -1,7 +1,7 @@
 _schema-version: "3.2"
 ID: FioriDemo1
 description: Fiori Demo 1
-version: 0.0.1
+version: 0.0.2
 modules:
 - name: FioriDemo1-dest-content
   type: com.sap.application.content
